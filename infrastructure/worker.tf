@@ -40,7 +40,8 @@ resource "aws_iam_role_policy" "worker_task_execution_role_policy" {
         "ecr:GetDownloadUrlForLayer",
         "ecr:BatchGetImage",
         "logs:CreateLogStream",
-        "logs:PutLogEvents"
+        "logs:PutLogEvents",
+        "ecs:StartTelemetrySession"
       ],
       "Resource": "*"
     },
