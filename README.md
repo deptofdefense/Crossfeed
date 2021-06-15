@@ -1,10 +1,6 @@
-![Deploy Backend](https://github.com/cisagov/crossfeed/workflows/Backend%20Pipeline/badge.svg?branch=master)
-![Deploy Frontend](https://github.com/cisagov/crossfeed/workflows/Frontend%20Pipeline/badge.svg?branch=master)
-![Deploy Infrastructure](https://github.com/cisagov/crossfeed/workflows/Deploy%20Infrastructure/badge.svg?branch=master)
-[![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-
 # Crossfeed
+
+This repository has been archived. Please see https://github.com/cisagov/crossfeed for the actively maintained repository.
 
 Crossfeed is a tool that continuously enumerates and monitors an organization's public-facing attack surface in order to discover assets and flag potential security flaws. By operating in either passive or active scanning modes, Crossfeed collects data from a variety of open source tools and data feeds to provide actionable information about organization assets. Crossfeed is offered as a self-service portal and allows customers to view reports and customize scans performed.
 
